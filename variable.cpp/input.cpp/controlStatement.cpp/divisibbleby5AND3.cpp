@@ -1,13 +1,13 @@
-//take positive integer input and tell if it is divisible by  5 or 3 but not divisible by 15.
+//take positive integer input and tell if it is divisible by 5 and 3 .(using nested if -else)
 #include<iostream>
 using namespace std;
 int main(){
     int n;
     cout<<"Enter number:";
     cin>>n;
-    if((n%5==0)||(n%3==0)){
-        if(n%15!=0){
-         cout<<"n is divisible by 5 and 3 not by 15";
+    if(n%5==0){
+        if(n%3==0){
+         cout<<"n is divisible by 5 and 3 ";
         }
         else{
         cout<<"not matching condition";
